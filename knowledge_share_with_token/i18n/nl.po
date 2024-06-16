@@ -1,0 +1,219 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* knowledge_share_with_token
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-16 19:16+0000\n"
+"PO-Revision-Date: 2024-06-16 19:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.knowledge_article_view_form
+msgid "<i class=\"fa fa-globe fa-2x\" title=\"Share to web\"/>"
+msgstr "<i class=\"fa fa-globe fa-2x\" title=\"Deel op web\"/>"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__access_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__access_token
+msgid "Access Token"
+msgstr "Toegangstoken"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_token_invite_form
+msgid "All child articles will be shared with the same token."
+msgstr "Alle subartikelen worden gedeeld met hetzelfde token."
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.knowledge_article_view_form
+msgid "Anyone can view using token"
+msgstr "Iedereen kan bekijken met token"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__article_id
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__article_id
+msgid "Article"
+msgstr "Artikel"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.knowledge_article_view_form
+msgid "Article published with token"
+msgstr "Artikel gepubliceerd met token"
+
+#. module: knowledge_share_with_token
+#: model:ir.actions.act_window,name:knowledge_share_with_token.action_knowledge_article_token
+#: model:ir.ui.menu,name:knowledge_share_with_token.menu_knowledge_article_token
+msgid "Articles Shared Tokens"
+msgstr "Artikelen Gedeelde tokens"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.website_knowledge_article_tree_frontend
+msgid "Available Articles"
+msgstr "Beschikbare artikelen"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_token_invite_form
+msgid "Cancel"
+msgstr "Annuleren"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_article_token_search
+msgid "Create Date"
+msgstr "Aanmaakdatum"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__create_uid
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__create_uid
+msgid "Created by"
+msgstr "Aangemaakt door"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__create_date
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__create_date
+msgid "Created on"
+msgstr "Aangemaakt op"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_token_invite_form
+msgid "Delete"
+msgstr "Verwijder"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__display_name
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__display_name
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_article_token_search
+msgid "Group By"
+msgstr "Groeperen op"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__id
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__id
+msgid "ID"
+msgstr ""
+
+#. module: knowledge_share_with_token
+#: model:ir.model,name:knowledge_share_with_token.model_knowledge_article
+msgid "Knowledge Article"
+msgstr "Kennisartikel"
+
+#. module: knowledge_share_with_token
+#: model:ir.model,name:knowledge_share_with_token.model_knowledge_article_token
+msgid "Knowledge Article Token"
+msgstr "Kennisartikel Token"
+
+#. module: knowledge_share_with_token
+#: model:ir.actions.act_window,name:knowledge_share_with_token.action_knowledge_token_invite
+msgid "Knowledge Token Invite"
+msgstr "Kennistoken uitnodigen"
+
+#. module: knowledge_share_with_token
+#: model:ir.model,name:knowledge_share_with_token.model_knowledge_token_invite
+msgid "Knowledge Token Invite Wizard"
+msgstr "Kennistoken uitnodigen Wizard"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token____last_update
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite____last_update
+msgid "Last Modified on"
+msgstr "Laatst gewijzigd op"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__write_uid
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__write_date
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.knowledge_article_view_form
+msgid "Manage"
+msgstr "Beheren"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__name
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__name
+msgid "Name"
+msgstr "Naam"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__partner_id
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__partner_id
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_article_token_search
+msgid "Partner"
+msgstr "Partner"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__root_article
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__root_article
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_article_token_search
+msgid "Root Article"
+msgstr "Hoofdartikel"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_token_invite_form
+msgid "Save"
+msgstr "Opslaan"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article__share_with_token
+msgid "Share With Token"
+msgstr "Delen met token"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article__share_with_token_count
+msgid "Share With Token Count"
+msgstr "Delen met token tellen"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,help:knowledge_share_with_token.field_knowledge_token_invite__root_article
+msgid "Share all child articles recursively."
+msgstr "Deel alle subartikelen recursief."
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article__shared_token_ids
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__token_article_ids
+msgid "Shared Token"
+msgstr "Gedeeld token"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.constraint,message:knowledge_share_with_token.constraint_knowledge_article_token_access_token_article_uniq
+msgid "The access token must be unique per article."
+msgstr "Toegangstoken moet uniek zijn per artikel."
+
+#. module: knowledge_share_with_token
+#: model:ir.model.constraint,message:knowledge_share_with_token.constraint_knowledge_article_token_name_article_uniq
+msgid "The name must be unique per article."
+msgstr "De naam moet uniek zijn per artikel."
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_article_token_search
+msgid "Token"
+msgstr "Token"
+
+#. module: knowledge_share_with_token
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_article_token__token_article_url
+#: model:ir.model.fields,field_description:knowledge_share_with_token.field_knowledge_token_invite__token_article_url
+msgid "Token Article Url"
+msgstr "Token Artikel Url"
+
+#. module: knowledge_share_with_token
+#: model_terms:ir.ui.view,arch_db:knowledge_share_with_token.view_knowledge_token_invite_form
+msgid "Token Articles"
+msgstr "Token Artiklen"
+

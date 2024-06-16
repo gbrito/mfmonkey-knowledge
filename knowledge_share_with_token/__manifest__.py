@@ -1,17 +1,30 @@
+# -*- coding: utf-8 -*-
+# Copyright (c) 2024 MainFrame Monkey <https://www.mainframemonkey.com>
+# License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
+
 {
     "name": "Knowledge Share with token",
     "summary": "This modules allows token generation for knowledge.",
-    "description": "This modules allows token generation for knowledge.",
-    "author": "Mainframe Monkey",
+    "version": "16.0.1.1.0",
     "website": "https://www.mainframemonkey.com",
-    "category": "Productivity/Knowledge",
-    "version": "16.0.1.0.0",
+    "author": "Mainframe Monkey",
     "license": "LGPL-3",
     "depends": [
-        "knowledge",
-        "website_knowledge"
+        "website_knowledge",
     ],
     "data": [
-      "views/knowledge_article_views.xml",
+        "security/ir.model.access.csv",
+        "security/ir_rule.xml",
+        "wizard/knowledge_token_invite_views.xml",
+        "views/knowledge_article_views.xml",
+        "views/knowledge_article_token_views.xml",
+        "views/knowledge_templates.xml",
     ],
+    "assets": {
+        "web.assets_frontend": [
+            "knowledge_share_with_token/static/src/js/knowledge_frontend.js",
+        ],
+    },
+    "application": False,
+    "installable": True,
 }

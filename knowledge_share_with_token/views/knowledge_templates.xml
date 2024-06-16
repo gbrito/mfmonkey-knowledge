@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="website_knowledge_article_tree_frontend"
+        inherit_id="website_knowledge.website_knowledge_article_tree_frontend">
+        <section t-if="shared_articles" position="after">
+            <section t-if="token_articles_ids">
+                <div class="o_section_header h4 mb-0">Available Articles</div>
+                <ul class="o_tree o_tree_workspace m-0 px-0 py-2">
+                    <t t-call="knowledge.articles_template">
+                        <t t-set="articles" t-value="token_articles_ids" />
+                        <t t-set="articles_category" t-value="'portal_public'" />
+                        <t t-set="access_token" t-value="access_token" />
+                    </t>
+                </ul>
+            </section>
+        </section>
+    </template>
+
+    <template id="articles_template_name" inherit_id="knowledge.articles_template_name">
+        <xpath expr="//a[hasclass('text-decoration-none')]" position="attributes">
+            <attribute name="t-attf-href">/knowledge/article/{{article.id}}/{{access_token}}</attribute>
+        </xpath>
+    </template>
+
+</odoo>
